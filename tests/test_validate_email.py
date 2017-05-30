@@ -6,7 +6,7 @@ from pprint import pprint
 class TestValidate_email(TestCase):
     def test_validate_email(self):
         try:
-            from email import validate_email
+            from build import validate_email
         except ImportError:
             self.assertFalse(no_function_found("validate_email"))
 
