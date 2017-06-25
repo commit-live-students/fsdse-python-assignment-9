@@ -7,7 +7,7 @@ def validate_email(string):
     #     print match
     for element in match:
 #         print element
-        if string == element:
+        if string in element:
             boolean = True
             return boolean
         else:
